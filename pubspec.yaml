@@ -1,0 +1,47 @@
+name: bibliatemas
+description: "A new Flutter project."
+
+# Impede a publicação acidental no pub.dev.
+publish_to: 'none'
+
+# Versão do aplicativo
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Ícones no estilo Cupertino
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.2
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/icon/icon.png" 
+
+   
+ 
+  
+  # Lints recomendadas para boas práticas
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  # Inclui as fontes padrão do Material Design.
+  uses-material-design: true
+
+  # Declaração de assets (imagens e ícones)
+  assets:
+    - assets/3.png
+    - assets/icon/icon.png
+    - assets/2.png
